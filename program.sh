@@ -1,5 +1,4 @@
 #!/bin/bash
-echo "Sorting Arithmetic Computation"
 read -p "Enter three inputs: " a b c
 declare -A dict
 dict[UC_2]=$(( $a + $b * $c ))
