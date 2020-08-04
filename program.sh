@@ -1,5 +1,6 @@
 #!/bin/bash
 echo "Sorting Conflict"
+echo "New Heading"
 read -p "Enter three inputs: " a b c
 declare -A dict
 dict[UC_2]=$(( $a + $b * $c ))
